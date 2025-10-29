@@ -1,0 +1,50 @@
+# Ignore git and git metadata
+.git
+.gitignore
+
+# Python artifacts
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv
+venv
+ENV
+env
+env.bak
+venv.bak
+
+# IDE / editor directories
+.vscode
+.idea
+
+# Test, cache and build folders
+.pytest_cache
+.mypy_cache
+.tox
+.coverage
+htmlcov
+build
+dist
+*.egg-info
+pip-wheel-metadata
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment files and secrets
+.env
+*.pem
+*.key
+credentials.json
+
+# Docker compose files (if you don't need them in build context)
+docker-compose.yml
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints
